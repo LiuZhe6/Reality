@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
     private TabLayout.Tab helpTab;
     private TabLayout.Tab optionTab;
 
-    private ConnectFragment2 connectFragment;
+    private ConnectFragment connectFragment;
     private PurchaseFragment purchaseFragment;
     private HelpFragment helpFragment;
     private OptionFragment optionFragment;
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
     }
 
     private void initView() {
-        connectFragment  = new ConnectFragment2();
+        connectFragment  = new ConnectFragment();
         purchaseFragment = new PurchaseFragment();
         helpFragment = new HelpFragment();
         optionFragment = new OptionFragment();

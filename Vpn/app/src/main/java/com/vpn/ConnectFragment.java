@@ -35,7 +35,7 @@ import java.util.ArrayList;
 /**
  * Created by coder on 17-7-1.
  */
-public class ConnectFragment2 extends Fragment implements View.OnClickListener {
+public class ConnectFragment extends Fragment implements View.OnClickListener {
 
     private View view;
 
